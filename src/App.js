@@ -21,7 +21,7 @@ function App() {
           </svg>
           <h1>sheeld</h1>
         </div>
-        <div className="flex flex-row space-x-1 text-sm">
+        <div className="flex-row hidden space-x-1 text-sm md:flex">
           <a
             href="#"
             className="px-6 py-2 text-gray-900 bg-gray-100 rounded-xl"
@@ -73,15 +73,15 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center pb-20">
-        <div className="flex flex-row justify-between w-5/6 my-6">
+      <div className="flex flex-col items-center px-4 pb-20 overflow-x-hidden md:px-4">
+        <div className="flex flex-col justify-between my-6 md:flex-row md:w-5/6">
           <div>
             <h2 className="text-3xl font-bold text-gray-900">Hello Martin!</h2>
             <p className="mt-2 text-sm text-gray-500">
               Welcome to your overview of your account.
             </p>
           </div>
-          <div className="flex flex-row items-center space-x-6">
+          <div className="flex flex-col items-start mt-4 space-y-4 md:space-y-0 md:items-center md:space-x-6 md:flex-row md:mt-0">
             <button className="flex flex-row items-center px-6 py-3 text-sm font-semibold text-gray-500 bg-white shadow-lg rounded-xl">
               Select Account
               <svg
@@ -102,7 +102,7 @@ function App() {
             </button>
           </div>
         </div>
-        <div className="w-5/6 my-4">
+        <div className="w-full my-4 md:w-5/6">
           <div className="flex flex-row items-center justify-between">
             <h3 className="text-lg font-bold text-gray-900">My Products</h3>
             <a href="#" className="flex items-center text-sm text-gray-500">
@@ -121,8 +121,8 @@ function App() {
               </svg>
             </a>
           </div>
-          <div className="flex flex-row grid-cols-4 mt-6 space-x-8 ">
-            <div className="flex-grow-0 w-1/4 bg-white shadow-xl rounded-3xl">
+          <div className="flex flex-col grid-cols-4 mt-6 space-y-8 md:space-y-0 md:space-x-8 md:flex-row ">
+            <div className="flex-grow-0 bg-white shadow-xl md:w-1/4 rounded-3xl">
               <img
                 className="object-cover w-full h-32 rounded-t-3xl"
                 src="https://images.unsplash.com/photo-1616812757130-aca5451b0243?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
@@ -147,7 +147,7 @@ function App() {
                 <h4 className="text-base font-bold text-gray-900">WordPress</h4>
               </div>
             </div>
-            <div className="flex-grow-0 w-1/4 bg-white shadow-xl rounded-3xl">
+            <div className="flex-grow-0 bg-white shadow-xl md:w-1/4 rounded-3xl">
               <img
                 className="object-cover w-full h-32 rounded-t-3xl"
                 src="https://images.unsplash.com/photo-1616812757130-aca5451b0243?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
@@ -172,7 +172,7 @@ function App() {
                 <h4 className="text-base font-bold text-gray-900">Weebly</h4>
               </div>
             </div>
-            <div className="flex-grow-0 w-1/4 bg-white shadow-xl rounded-3xl">
+            <div className="flex-grow-0 bg-white shadow-xl md:w-1/4 rounded-3xl">
               <img
                 className="object-cover w-full h-32 rounded-t-3xl"
                 src="https://images.unsplash.com/photo-1616812757130-aca5451b0243?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
@@ -197,7 +197,7 @@ function App() {
                 <h4 className="text-base font-bold text-gray-900">Weebly</h4>
               </div>
             </div>
-            <div className="relative flex-grow-0 w-1/4 bg-white shadow-xl rounded-3xl">
+            <div className="relative flex-grow-0 hidden bg-white shadow-xl md:w-1/4 rounded-3xl">
               <img
                 className="absolute object-cover w-full h-full rounded-3xl"
                 src="https://images.unsplash.com/photo-1603621760091-d7b12c66549a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=faceare&facepad=1&w=672&q=80"
@@ -221,8 +221,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row w-5/6 my-4 space-x-6">
-          <div className="w-2/3">
+        <div className="flex flex-col my-4 md:space-x-6 md:flex-row md:w-5/6">
+          <div className="md:w-2/3">
             <div className="flex flex-row items-center justify-between">
               <h3 className="text-lg font-bold text-gray-900">Invoicing</h3>
               <a href="#" className="flex items-center text-sm text-gray-500">
@@ -324,7 +324,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="w-1/3">
+          <div className="md:w-1/3">
             <div className="flex flex-row items-center justify-between">
               <h3 className="text-lg font-bold text-gray-900">Websites</h3>
               <a href="#" className="flex items-center text-sm text-gray-500">
@@ -439,7 +439,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="w-5/6">
+        <div className="md:w-5/6">
           <div className="flex flex-row items-center justify-between">
             <h3 className="text-lg font-bold text-gray-900">
               Video Guides & Tips
@@ -460,7 +460,7 @@ function App() {
               </svg>
             </a>
           </div>
-          <div className="flex flex-row mt-6 space-x-8">
+          <div className="flex flex-col mt-6 space-y-4 md:flex-row md:space-x-8 md:space-y-0">
             <div className="flex flex-row items-center p-4 space-x-3 bg-white shadow-xl rounded-xl">
               <span className="p-2 bg-red-400 rounded-xl">
                 <svg
