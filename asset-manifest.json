@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-hosting-app/static/css/main.9b4d605d.chunk.css",
-    "main.js": "/react-hosting-app/static/js/main.9bd5f87a.chunk.js",
-    "main.js.map": "/react-hosting-app/static/js/main.9bd5f87a.chunk.js.map",
+    "main.css": "/react-hosting-app/static/css/main.c092c812.chunk.css",
+    "main.js": "/react-hosting-app/static/js/main.170c51af.chunk.js",
+    "main.js.map": "/react-hosting-app/static/js/main.170c51af.chunk.js.map",
     "runtime-main.js": "/react-hosting-app/static/js/runtime-main.60192010.js",
     "runtime-main.js.map": "/react-hosting-app/static/js/runtime-main.60192010.js.map",
     "static/js/2.fb095764.chunk.js": "/react-hosting-app/static/js/2.fb095764.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.698c0169.chunk.js": "/react-hosting-app/static/js/3.698c0169.chunk.js",
     "static/js/3.698c0169.chunk.js.map": "/react-hosting-app/static/js/3.698c0169.chunk.js.map",
     "index.html": "/react-hosting-app/index.html",
-    "static/css/main.9b4d605d.chunk.css.map": "/react-hosting-app/static/css/main.9b4d605d.chunk.css.map",
+    "static/css/main.c092c812.chunk.css.map": "/react-hosting-app/static/css/main.c092c812.chunk.css.map",
     "static/js/2.fb095764.chunk.js.LICENSE.txt": "/react-hosting-app/static/js/2.fb095764.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.60192010.js",
     "static/js/2.fb095764.chunk.js",
-    "static/css/main.9b4d605d.chunk.css",
-    "static/js/main.9bd5f87a.chunk.js"
+    "static/css/main.c092c812.chunk.css",
+    "static/js/main.170c51af.chunk.js"
   ]
 }
